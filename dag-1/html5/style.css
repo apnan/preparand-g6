@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(187, 200, 127);
+    font-family: monospace;
+    margin: 0;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 64px;
+    background-color: tomato;
+}
+
+p   {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article {
+    width: 50%;
+    background-color: lightblue;
+    padding: 8px;
+}
+
+.traskor {
+    width: 50%;
+}
+
+#jsLogo {
+    width: 25%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    /* background-color: red; */
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
