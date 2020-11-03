@@ -1,0 +1,93 @@
+/* All kod innan första media queryn gäller skärmar upp till 720px */
+html, body {
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+}
+
+header a {
+    width: 100%;
+    display: block;
+}
+
+header .site-logo {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-color: lightskyblue;
+    color: black;
+    font-size: 18px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container {
+    padding: 10px;
+}
+
+footer {
+    background-color: pink;
+    padding: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Dessa regler gäller bara OM skärmen är större än 720 pixlar */
+@media only screen and (min-width: 720px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a {
+        display: inline;
+        width: 30%;
+    }
+
+    header .site-logo {
+        margin: 0;
+        width: 40%;
+    }
+
+    header nav {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline;
+        padding: 15px;
+        /* margin-right: 10px; */
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+    }
+} 
